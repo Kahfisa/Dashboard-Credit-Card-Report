@@ -28,4 +28,6 @@ Logo Source: Image by juicy_fish on Freepik
 
 
 ## Insight
--
+- The majority of credit card users come from the self-employed segment, followed by businessmen and white-collar workers. In terms of marital status, most customers are married. Geographically, the highest concentration of customers is found in New York, California, Texas, and Florida.
+- For income derived from annual fees, the self-employed segment is the largest contributor, primarily from the Blue card category, with total revenue reaching 353,340. However, when focusing on income from transaction activities, the businessman segment appears the most promising, with an average transaction frequency of 80 times during the credit card usage period.
+- The highest default rates are recorded in New York, California, Texas, and Florida, indicating a significant concentration of credit risk in regions with high economic activity. From a customer profile perspective, groups with a Graduate-level education and occupations as Self-employed, Businessman, and White-collar workers exhibit the highest delinquency rates compared to other segments.
