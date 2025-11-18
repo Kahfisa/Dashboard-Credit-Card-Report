@@ -2,16 +2,47 @@
 
 
 ## Introduction
-This dashboard provides a comprehensive overview of customer profiles and financial behavior, highlighting key metrics such as total customers and average satisfaction. It offers customer segmentation by occupation, marital status, and location, while also showcasing sales performance across different occupations and card categories. Furthermore, it visualizes transaction and utilization patterns by occupation, and illustrates the distribution of delinquent accounts across various customer profiles and geographic areas.
+This project presents an interactive dashboard analyzing customer data across three key segments: Demography, Revenue, and Risk. It explores customer distribution by occupation, marital status, and state, evaluates sales performance and transaction behavior by occupation and card category, and identifies delinquency patterns across education levels, occupations, and state
 
 ## Tools
 - Python
 - Looker Studio
 
 ## Dataset
-|Dataset              |Column                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|credit card          |client_num, customer_age, gender, dependent_count, education_level, marital_status, state_cd, zipcode, car_owner, house_owner, personal_loan, contact, customer_job, income, cust_satisfaction_score, card_category, annual_fees, activation_30_days, customer_acq_cost, week_start_date, week_num, qtr, current_year, credit_limit, total_revolving_ba, total_trans_amt, total_trans_vo, avg_utilization_ratio, use_chip, interested_earne, deliquent_acc|
+|Dataset              |Column                                       |Description                                                      |
+|---------------------|---------------------------------------------|-----------------------------------------------------------------|
+|credit card          |client_num                                   |Unique customer identification number.
+|                     |customer_age                                 |Customers age.
+|                     |gender                                       |Customers gender.
+|                     |dependent_count                              |Number of dependents of the customer.
+|                     |education_level                              |Customers education level.
+|                     |marital_status                               |Customers marital status.
+|                     |state_cd                                     |State or region where the customer resides.
+|                     |zipcode                                      |Postal code of the customer's residence.
+|                     |car_owner                                    |Indicates whether the customer owns a car.
+|                     |house_owner                                  |Indicates whether the customer owns a house.
+|                     |personal_loan                                |Indicates whether the customer has a personal loan.
+|                     |contact                                      |Primary contact method of the customer.
+|                     |customer_job                                 |Customers occupation.
+|                     |income                                       |Customers income..
+|                     |cust_satisfaction_score                      |Customer satisfaction score with the bank or credit card services.
+|                     |card_category                                |Type of credit card owned by the customer.
+|                     |annual_fees                                  |Annual fees charged for the credit card.
+|                     |activation_30_days                           |Indicator of whether the card was activated within 30 days after issuance.
+|                     |customer_acq_cost                            |Customer acquisition cost.
+|                     |week_start_date                              |Start date of the week for the transaction or observation period.
+|                     |week_num                                     |Week number in the year.
+|                     |qtr                                          |Quarter of the year (1–4).
+|                     |current_year                                 |Year when the data was recorded.
+|                     |credit_limit                                 |Maximum credit limit granted to the customer.
+|                     |total_revolving_ba                           |Total transaction value conducted by the customer during a specific period.
+|                     |total_trans_amt                              |Total number of transactions during a specific period.
+|                     |total_trans_vol                              |Total number of transactions during a specific period.
+|                     |avg_utilization_ratio                        |Average credit utilization ratio.
+|                     |use_chip                                     |Indicates whether transactions used the card chip.
+|                     |exp_type                                     |Type of credit card, specifying what the card can be used
+|                     |interested_earned                            |Interest earned by the customer.
+|                     |deliquent_acc                                |Number of delinquent accounts or late payments.
 
 ## Business Question
 - How are customers distributed by occupation, marital status, and geographic location?
@@ -22,12 +53,13 @@ This dashboard provides a comprehensive overview of customer profiles and financ
 - Which states show higher delinquency accounts?
 
 ## Dashboard Preview
-<img width="1279" height="997" alt="image" src="https://github.com/user-attachments/assets/5eabf7b8-1627-4aaf-8629-193c8c69c176" />
 
-Logo Source: Image by juicy_fish on Freepik
+<img width="996" height="836" alt="image" src="https://github.com/user-attachments/assets/e24ca8f7-d91e-46a8-90fc-d9c8fe24e788" />
+
+Logo Source: Logo by juicy_fish on Freepik
 
 
 ## Insight
-- The majority of credit card users come from the self-employed segment, followed by businessmen and white-collar workers. In terms of marital status, most customers are married. Geographically, the highest concentration of customers is found in New York, California, Texas, and Florida.
-- For income derived from annual fees, the self-employed segment is the largest contributor, primarily from the Blue card category, with total revenue reaching 353,340. However, when focusing on income from transaction activities, the businessman segment appears the most promising, with an average transaction frequency of 80 times during the credit card usage period.
-- The highest default rates are recorded in New York, California, Texas, and Florida, indicating a significant concentration of credit risk in regions with high economic activity. From a customer profile perspective, groups with a Graduate-level education and occupations as Self-employed, Businessman, and White-collar workers exhibit the highest delinquency rates compared to other segments.
+- The majority of credit card users come from the self-employed segment, followed by businessmen and white-collar workers, with most being married. Geographically, the highest concentration of customers is found in New York, California, Texas, and Florida, indicating a strong credit card market focus in these regions.
+- The self-employed segment is the main contributor to annual fee revenue, primarily through the Blue Card category, with total revenue reaching 353,340. Meanwhile, in terms of transaction-based revenue, the businessman segment shows the highest potential, with an average of 80 transactions during the credit card usage period, indicating more intensive card usage.
+- The highest default rates are observed in New York, California, Texas, and Florida, indicating a significant concentration of credit risk in regions with high economic activity. From a customer profile perspective, individuals with a Graduate-level education and occupations as Self-employed, Businessmen, and White-collar workers exhibit the highest delinquency rates, highlighting the need for targeted attention to these segments in credit risk management.
