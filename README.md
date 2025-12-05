@@ -54,7 +54,12 @@ This project presents an interactive dashboard analyzing customer data across th
 
 ## Dashboard Preview
 
-<img width="996" height="836" alt="image" src="https://github.com/user-attachments/assets/e24ca8f7-d91e-46a8-90fc-d9c8fe24e788" />
+<img width="1365" height="948" alt="image" src="https://github.com/user-attachments/assets/5508c275-d818-4cdd-a6c1-9c6cec378562" />
+
+<img width="1367" height="948" alt="image" src="https://github.com/user-attachments/assets/bf874603-fd64-45e1-928f-9a8ce5e52953" />
+
+<img width="1367" height="948" alt="image" src="https://github.com/user-attachments/assets/b71e3940-658b-4fa0-989c-0e946fb6da4c" />
+
 
 Logo Source: Logo by juicy_fish on Freepik
 
