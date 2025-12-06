@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This project presents an interactive dashboard analyzing customer data across three key segments: Demography, Revenue, and Risk. It explores customer distribution by occupation, marital status, and state, evaluates sales performance and transaction behavior by occupation and card category, and identifies delinquency patterns across education levels, occupations, and state
+This project presents an interactive dashboard analyzing customer data across three key segments which include demography, revenue, and risk. It explores customer distribution by occupation, marital status, and state, evaluates sales performance and transaction behavior by occupation and card category, and identifies delinquency patterns across education levels, occupations, and state
 
 ## Tools
 - Python
